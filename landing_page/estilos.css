@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family= Righteous & family= Sarala & display = swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(175, 106, 240) 16.62%,
+    rgb(54, 57, 252) 81.61%
+  );
+}
+
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.cabeçalho-image {
+  height: 80px;
+}
+.cabeçalho-menu {
+  display: flex;
+  gap: 32px;
+}
+.cabeçalho-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+.cabeçalho-menu-item:hover {
+  color: rgb(205, 157, 250);
+}
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid rgb(255, 255, 255);
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.conteudo-principal-escrito-titulo {
+  font-family: "Righteous", cursive;
+  font-weight: 1000;
+  font-size: 64px;
+  color: rgb(255, 255, 255);
+}
+.conteudo-principal-escrito-titulo:hover {
+  color: rgb(226, 226, 252);
+}
+.conteudo-principal-image {
+  border: solid 2px white;
+  border-radius: 50%;
+  margin-top: 40px;
+  width: 25%;
+}
+.conteudo-principal-image:hover {
+  transform: scale(0.9);
+}
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+.conteudo-principal-escrito-botao {
+  background-color: white;
+  color: black;
+  width: 180px;
+  height: 67px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(255, 255, 255, 0.116);
+  color: rgb(255, 255, 255);
+}
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid white;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 1000;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+  justify-content: center;
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+.eu {
+  border-top: 0.4px solid white;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 1000;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.descricao-eu {
+  justify-content: center;
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.descricao-projetos {
+  justify-content: center;
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+.habilidade {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Sarala", sans-serif;
+}
+.imagem-github {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.click {
+  color: rgba(255, 255, 255, 0.336);
+  padding-top: 1%;
+  font-size: 20px;
+}
+.click:hover {
+  color: white;
+}
+.rodape {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+  border-top: 0.4px solid white;
+}
+
+.rodape div {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+
+  width: 300px;
+}
+.rodape div img {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+.contatos {
+  padding-top: 12px;
+  font-family: "Righteous", cursive;
+  font-weight: 1000;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 12px;
+}
+.rodape-image-1:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+}
